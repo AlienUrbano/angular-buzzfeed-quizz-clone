@@ -1,55 +1,49 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Descubra se você é introvertido ou extrovertido!",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Onde você se sente mais energizado?",
+      "options": [
+        {"id": 1, "name": "Em casa, sozinho", "alias": "A"},
+        {"id": 2, "name": "Em festas e eventos sociais", "alias": "B"}
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Como você se sente em grandes grupos de pessoas?",
+      "options": [
+        {"id": 1, "name": "Desconfortável, prefiro grupos pequenos", "alias": "A"},
+        {"id": 2, "name": "Animado, adoro interagir com muitas pessoas", "alias": "B"}
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Como você recarrega suas energias?",
+      "options": [
+        {"id": 1, "name": "Ficando sozinho e em silêncio", "alias": "A"},
+        {"id": 2, "name": "Socializando e conversando com outras pessoas", "alias": "B"}
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Prefere atividades tranquilas ou agitadas?",
+      "options": [
+        {"id": 1, "name": "Tranquilas, como ler ou ouvir música", "alias": "A"},
+        {"id": 2, "name": "Agitadas, como praticar esportes ou sair com amigos", "alias": "B"}
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Como você se sente em situações sociais prolongadas?",
+      "options": [
+        {"id": 1, "name": "Cansado, preciso de tempo sozinho para me recuperar", "alias": "A"},
+        {"id": 2, "name": "Energizado, adoro estar cercado de pessoas", "alias": "B"}
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": "Você é mais introvertido. Valoriza momentos de solidão e se sente recarregado quando está sozinho.",
+    "B": "Você é mais extrovertido. Gosta de interações sociais e se sente energizado na presença de outras pessoas."
   }
 }
