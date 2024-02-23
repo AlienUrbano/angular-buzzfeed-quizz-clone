@@ -1,28 +1,33 @@
 <div class="quizz__container">
-
   <div class="quizz_logo">
-    <img src="assets/imgs/logo.png" alt="" srcset="">
-    <h3>{{title}}</h3>
+    <img src="assets/imgs/logo.png" alt="" srcset="" />
+    <h3>{{ title }}</h3>
   </div>
 
-  <div *ngIf=!finished class="quizz_questions">
-      <h3>{{questionSelected.question}}</h3>
+  <div *ngIf="!finished" class="quizz_questions">
+    <h3>{{ questionSelected.question }}</h3>
   </div>
 
-  <div *ngIf=!finished class="quizz_options">
-
+  <div *ngIf="!finished" class="quizz_options">
     <button
       *ngFor="let option of questionSelected.options; let i = index"
       (click)="playerChoose(option.alias)"
       class="btn-option"
     >
-      {{option.name}}
+      {{ option.name }}
     </button>
-
   </div>
 
-  <div *ngIf=finished class="quizz_results">
+  <div *ngIf="finished" class="quizz_results">
     <h1>O Seu resultado é:</h1>
-    <p>{{answerSelected}}</p>
+    <p>{{ answerSelected }}</p>
+    
+    <button *ngIf="finished" class="btn-option" (click)="refreshPage()">
+      Responder novamente
+    </button>
+    <button *ngIf="finished" class="btn-option">
+      <a href="https://www.linkedin.com/in/paulo-gabriel-neves-santos-73b181283/" target="_blank">Visite meu LinkedIn</a>
+    </button>
   </div>
+
 </div>

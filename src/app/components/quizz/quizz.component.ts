@@ -47,6 +47,10 @@ export class QuizzComponent implements OnInit {
 
   }
 
+  refreshPage(){
+    window.location.reload()
+  }
+
   async nextStep(){
     this.questionIndex+=1
 
